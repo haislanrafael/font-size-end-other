@@ -1,0 +1,30 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px; /* tamanho do texto pode ser medio, grande ou pequeno, da pra medir em pixels tbm, nao recomendo colocar 10pxs, e sim acima de 30pxs.*/
+    color: orange;
+    font-weight: bold; /*aki coloca em negrito*/
+    text-align: center; /*aki centraliza o texto*/
+    text-decoration: underline; /* aki sublinha o texto*/
+    text-transform: uppercase; /* aki deixa o texto em maiusculo*/
+    letter-spacing: 10px; /* aki deixa um espaçamento entre as letras*/
+    word-spacing: 20px; /* aki deixa um espaçamento entre as palavras*/
+    line-height: 40px; /* aki deixa um espaçamento entre as linhas*/
+    
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal; 
+
+
+}
+
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    font-style: italic;
+}
+
