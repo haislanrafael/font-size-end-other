@@ -6,9 +6,9 @@ h1{
     text-align: center; /*aki centraliza o texto*/
     text-decoration: underline; /* aki sublinha o texto*/
     text-transform: uppercase; /* aki deixa o texto em maiusculo*/
-    letter-spacing: 10px; /* aki deixa um espaçamento entre as letras*/
-    word-spacing: 20px; /* aki deixa um espaçamento entre as palavras*/
-    line-height: 40px; /* aki deixa um espaçamento entre as linhas*/
+    letter-spacing: 5px; /* aki deixa um espaçamento entre as letras*/
+    word-spacing: 5px; /* aki deixa um espaçamento entre as palavras*/
+    line-height: /* aki deixa um espaçamento entre as linhas*/
     
 }
 
@@ -17,6 +17,10 @@ p {
     font-size: 20px;
     font-weight: bold;
     font-style: normal; 
+    word-spacing: 20px;
+    line-height: 2; /*aki deixa duas linhas espaço entre elas. */
+    text-indent: 40px; /* aki deixa um espaçamento no começo do paragrafo*/
+
 
 
 }
@@ -27,4 +31,70 @@ a {
     font-weight: 300;
     font-style: italic;
 }
+
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.shadows-into-light-regular02 {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.shadows-into-light-regular03{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: italic;
+
+
+}
+
+.shadows-into-light-regular04{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: italic;
+
+
+}
+.shadows-into-light-regular05{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: italic;
+
+
+}
+
+.shadows-into-light-regular06 {
+    color: orange;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.shadows-into-light-regular07 {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.shadows-into-light-regular08 {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: orange;
+}
+a{
+     font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: orange;
+}
+
+
+
+
+
 
