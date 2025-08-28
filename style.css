@@ -32,11 +32,15 @@ a {
     font-style: italic;
 }
 
-.shadows-into-light-regular {
+.shadows-into-light-regular00 {
   font-family: "Shadows Into Light", cursive;
   font-weight: 400;
   font-style: normal;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.865),4px 2px 2px rgba(236, 9, 9, 0), 2px 2px 2px rgba(181, 26, 26, 0.865) ;
 }
+
+
+
 
 .shadows-into-light-regular02 {
   font-family: "Shadows Into Light", cursive;
