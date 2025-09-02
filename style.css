@@ -1,15 +1,15 @@
 h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px; /* tamanho do texto pode ser medio, grande ou pequeno, da pra medir em pixels tbm, nao recomendo colocar 10pxs, e sim acima de 30pxs.*/
-    color: orange;
+    /*color: orange;
     font-weight: bold; /*aki coloca em negrito*/
-    text-align: center; /*aki centraliza o texto*/
-    text-decoration: underline; /* aki sublinha o texto*/
+    /*text-align: center; /*aki centraliza o texto*/
+    text-decoration: line-through darkblue double; /* double multiplica a linha, e da pra escolher a cor, aki sublinha o texto, line-through: isca a palavra*/
     text-transform: uppercase; /* aki deixa o texto em maiusculo*/
     letter-spacing: 5px; /* aki deixa um espaçamento entre as letras*/
     word-spacing: 5px; /* aki deixa um espaçamento entre as palavras*/
-    line-height: /* aki deixa um espaçamento entre as linhas*/
-    
+    line-height: 50px/* aki deixa um espaçamento entre as linhas*/
+
 }
 
 p {
