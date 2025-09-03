@@ -1,10 +1,10 @@
 h1{
-    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px; /* tamanho do texto pode ser medio, grande ou pequeno, da pra medir em pixels tbm, nao recomendo colocar 10pxs, e sim acima de 30pxs.*/
-    /*color: orange;
+    color: orange;
     font-weight: bold; /*aki coloca em negrito*/
-    /*text-align: center; /*aki centraliza o texto*/
-    text-decoration: line-through darkblue double; /* double multiplica a linha, e da pra escolher a cor, aki sublinha o texto, line-through: isca a palavra*/
+    text-align: center; /*aki centraliza o texto*/
+    text-decoration: line-through rgba(188, 98, 45, 0) ; /* double multiplica a linha, e da pra escolher a cor, aki sublinha o texto, line-through: isca a palavra*/
     text-transform: uppercase; /* aki deixa o texto em maiusculo*/
     letter-spacing: 5px; /* aki deixa um espaçamento entre as letras*/
     word-spacing: 5px; /* aki deixa um espaçamento entre as palavras*/
@@ -91,11 +91,34 @@ a {
   color: orange;
 }
 a{
-     font-family: "Shadows Into Light", cursive;
+  font-family: "Shadows Into Light", cursive;
   font-weight: 400;
   font-style: normal;
   color: orange;
 }
+
+#capitulo01{      /*aki acessa o id capitulo01*/
+    color: orange;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: justify;
+    text-indent: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2;
+}
+
+#capitulo02{ /*aki acessa o id capitulo02*/
+
+    color: orange;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: justify;
+    text-indent: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2;
+}
+
+
 
 
 
