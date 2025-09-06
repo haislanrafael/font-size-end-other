@@ -124,3 +124,18 @@ a{
     list-style-position: inside;
 
 } 
+
+
+.tag{
+  color: aqua;
+  cursor: wait; /* aki deixa o cursor carregando*/
+  text-decoration: none; /* aki tira o sublinhado do link*/
+}
+
+.tag:visited{
+  color: red;                  /*quando o usuario visita o link a cor do elemento e mudadao para vermelho*/
+}
+.tag:hover{
+  color: magenta;    /*quando o cara passar o mause por cima muda de cor o *elemento*/
+  text-decoration: underline; /* aki deixa o sublinhado do link*/
+}
