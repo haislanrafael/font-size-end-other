@@ -143,3 +143,20 @@ a{
 .font{
   font: 80px 10px/4 "Shadows Into Light", cursive; /* aki abrevia as fontes, primeiro o tamanho da fonte, depois o peso, depois o estilo, e por ultimo a fonte*/
 }
+
+
+
+/*
+*{           aki ele pega todos elementos da pagina
+  width: 0%;
+  padding: 0%;
+  color: aqua;
+  background-color: aquamarine;
+} */      
+
+input[type="text"]{  /* aki ele pega todos os input que tem o tipo text*/
+  background-color: yellow;
+}
+input[type="password"]{  /* aki ele pega todos os input que tem o tipo password*/
+  background-color: pink;
+}
