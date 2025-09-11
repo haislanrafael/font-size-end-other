@@ -150,13 +150,28 @@ a{
 *{           aki ele pega todos elementos da pagina
   width: 0%;
   padding: 0%;
-  color: aqua;
+  color: aqua; 
   background-color: aquamarine;
 } */      
 
 input[type="text"]{  /* aki ele pega todos os input que tem o tipo text*/
   background-color: yellow;
 }
-input[type="password"]{  /* aki ele pega todos os input que tem o tipo password*/
+input[type="password"]{  /* :aki ele pega todos os input que tem o tipo password*/
   background-color: pink;
+}
+
+
+a[href*="https"] {  /* aki ele pega todos os links que tenham como ref https  */
+  background-color: silver;
+}
+
+
+a[href*="#"] {   /*  aki ele pega todos os links que tenham como ref # */
+  background-color: rgb(159, 61, 61);
+}
+
+/* Links that end in ".org" */
+a[href$=".org"] {    /* aki ele pega todos os links que terminem com a ref .org */
+  color: red;
 }
